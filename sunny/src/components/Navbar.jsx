@@ -4,7 +4,7 @@ import {logo} from '../assets'
 import {AiOutlineShoppingCart, AiOutlineUser, AiOutlineSearch} from 'react-icons/ai'
 const Navbar = () => {
   return (    
-    <div className='w-full flex py-6 px-6 mx-3 gap-48 items-center relative justify-center'>
+    <div className=' relative  w-full flex py-6 px-6 mx-auto gap-48 items-center justify-center'>
       <div className="flex cursor-pointer">
         <img src={logo} alt='logo' className='flex-1 justify-center'/>
       </div>
