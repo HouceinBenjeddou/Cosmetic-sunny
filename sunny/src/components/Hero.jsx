@@ -10,14 +10,14 @@ const Hero = () => {
         <img src={hdmicro} alt='hdmicro' className='z-40 absolute '/>
         <img src={price} alt='price' className='z-30'/>
       </div>
-      {/* <div className="">
+       <div className="">
         <button>Free delivery Worldwide</button>
         <img src={delivery} alt="delivery"/>
           <h1>Foundation & Matte</h1>
           <p>Maybelline’s #1 foundation perfect for oily skin. No stickiness, no shine.</p>
           <button>Add to Cart</button>
           <span>How it Works</span>
-      </div> */}
+      </div> 
     </div>
     </section>
   )
