@@ -5,8 +5,10 @@ import {features} from '../constants'
 //const [readMore, setReadMore] = useState(false);
 
 const FeatureMap = (({title, description, image})=>(
-    <div className="flex flex-col justify-center items-center ">
-      <img src={image} alt="image" />  
+    <div className="flex flex-row justify-center items-center ">
+        <div className="">
+            <img src={image} alt="image" className='flex'/>  
+        </div>
       <h1>{title}</h1>
       <p>{description}</p>
     </div>
