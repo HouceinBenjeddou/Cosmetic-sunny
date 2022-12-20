@@ -5,6 +5,12 @@ module.exports = {
     extend: {
       center:true
     },
+    textColor: {
+      primary: '#d05959',
+      p_color: '#ffffff',
+      gray: '#707070',
+      button_color: "#FFDAD7",
+    },
   },
   plugins: [],
 }

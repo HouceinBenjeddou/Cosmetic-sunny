@@ -7,9 +7,11 @@ import HowToUse from './HowToUse'
 import Showcase from './Showcase'
 import Sponsors from './Sponsors'
 import Testimonials from './Testimonials'
+import Feature from './Feature'
 
 export {
     Navbar,
+    Feature,
     CTA,
     FAQ,
     Footer,

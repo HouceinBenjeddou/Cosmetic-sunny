@@ -1,5 +1,5 @@
 import './index.css'
-import { CTA, FAQ, Footer, Hero, HowToUse, Navbar, Showcase, Sponsors, Testimonials } from './components'
+import { CTA, FAQ, Footer, Hero, HowToUse, Navbar, Showcase, Sponsors, Testimonials, Feature } from './components'
 function App() {
 
   return (
@@ -7,7 +7,8 @@ function App() {
       <div>
         <Navbar />
         <Hero />
-        <Showcase />     
+        <Showcase />   
+        <Feature />  
         <HowToUse />     
         <Sponsors />     
         <Testimonials />     

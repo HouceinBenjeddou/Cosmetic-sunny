@@ -15,7 +15,7 @@ const Navbar = () => {
             <div key={item.id}>
               <li className=' flex list-none items-center'>
                 <ul className='flex items-center '>
-                <a href={`#${item.id}`} className='items-center mb-1 mt-1  hover:text-sky-600 hover:underline'>
+                <a href={`#${item.id}`} className='items-center mb-1 mt-1 hover:text-primary'>
                 {item.title}
                 </a>
                 </ul>        
