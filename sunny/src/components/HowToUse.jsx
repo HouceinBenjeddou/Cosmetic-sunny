@@ -5,7 +5,7 @@ import {AiOutlineLogout} from 'react-icons/ai'
 const HowToUse = () => {
   return (
     <div className='container pt-20 my-3'>
-      <div className="top flex justify-center relative items-center gap-[34rem] ">
+      <div className="top flex justify-center relative items-center gap-[30rem] ">
         <div className="py-2">
         <p className='text-gray pb-4'>Why Choose Us ?</p>
         <h1 className='text-3xl'>How to use ? </h1>
@@ -19,7 +19,7 @@ const HowToUse = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center text-start flex-row ">
+      <div className="flex justify-center items-center text-start gap-10 flex-row ">
         <div className="flex">
           <img src={howtouse } alt="how to use" className='flex m-3 pt-20' />
         </div>
