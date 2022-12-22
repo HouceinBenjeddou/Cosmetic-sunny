@@ -6,11 +6,14 @@ import {features} from '../constants'
 
 const FeatureMap = (({title, description, image})=>(
     <div className="flex flex-row justify-center items-center ">
-        <div className="">
-            <img src={image} alt="image" className='flex'/>  
+        <div>
+        <img src={image} alt="image" className='flex'/>  
         </div>
-      <h1>{title}</h1>
-      <p>{description}</p>
+        <div className="flex justify-start flex-col m-3 py-3">
+            <h1 className='text-3xl my-4 '>{title}</h1>
+            <p className='text-gray max-w-xl my-1'>{description}</p>
+        </div>
+    
     </div>
 ))
 
@@ -20,7 +23,9 @@ const Feature = () => {
     <div>
     {
     features.map((feature,index) =>(
-       <FeatureMap  key={feature.id} {...feature} index={index} />      
+       <FeatureMap  key={feature.id} {...feature} index={index} 
+        className={` ${index === features.length - 1 ? "hidden" : "mr-2"}`}
+       />      
     ))
     }
     </div>

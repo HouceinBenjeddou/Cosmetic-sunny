@@ -28,13 +28,13 @@ const features = [
         id: 'feature-1',
         title: "GOS- Primer Plus 30 ML",
         description: "GOSH COPENHAGEN offers a wide selection of products in different categories: Cosmetics, Fragrances, Hair Care, Face Care, Body Care. GOSH Cosmetics are available online. ",
-        image:hdmicro,
+        image:gosprimer,
     },
     {
         id: 'feature-2',
         title: "HD mirco",
         description: "HD Micro Foundation Matifying Liquid is a micronized and gently mattifying foundation with vitamin E for the most natural look. ",
-        image:gosprimer,
+        image:hdmicro,
     },
 ];
 
