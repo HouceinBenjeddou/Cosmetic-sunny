@@ -21,7 +21,7 @@ const HowToUse = () => {
 
       <div className="flex justify-center items-center text-start gap-10 flex-row ">
         <div className="flex">
-          <img src={howtouse } alt="how to use" className='flex m-3 pt-20' />
+          <img src={howtouse } alt="how to use" className='flex m-3 pt-10' />
         </div>
         <div className="flex flex-col max-w-[500px]">
           <h1 className='text-2xl my-5 font-medium'>Apply & Ingredients</h1>

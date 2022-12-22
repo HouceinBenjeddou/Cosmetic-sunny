@@ -1,8 +1,13 @@
  import React from 'react'
- 
+ import { acenture, deltoite, google, ibm, samsung } from '../assets'
+
  const Sponsors = () => {
    return (
-     <div>Sponsors</div>
+     <div>
+        {/* 
+          to do:
+        map through sponsors */}
+     </div>
    )
  }
  

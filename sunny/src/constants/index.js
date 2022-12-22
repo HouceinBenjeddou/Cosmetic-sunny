@@ -1,4 +1,5 @@
-import {abstract, cta, delivery, gosprimer, hdmicro, howtouse, Image, logo, mockup, price, line } from '../assets'
+import {abstract, cta, delivery, gosprimer, hdmicro, howtouse, Image, logo, mockup, price, line, } from '../assets'
+import { acenture, deltoite, google, ibm, samsung } from '../assets';
 
 const navLinks = [
     {
@@ -38,7 +39,31 @@ const features = [
     },
 ];
 
+const Sponsors = [
+    {
+        id:'image-1',
+        image: acenture,
+    },
+    {
+        id:'image-2',
+        image: deltoite,
+    },
+    {
+        id:'image-3',
+        image: google,
+    },
+    {
+        id:'image-4',
+        image: ibm,
+    },
+    {
+        id:'image-5',
+        image: samsung,
+    },
+]
+
 export {
     navLinks,
     features,
+    Sponsors,
 };
