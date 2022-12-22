@@ -5,11 +5,11 @@ import {features} from '../constants'
 //const [readMore, setReadMore] = useState(false);
 
 const FeatureMap = (({title, description, image})=>(
-    <div className="flex flex-row justify-center items-center ">
-        <div>
-        <img src={image} alt="image" className='flex'/>  
+    <div className=" left-[10%] right-[10%] px-3 mx-3 relative justify-center text-center inline-block">
+        <div className='items-center inline-block'>
+        <img src={image} alt="image" className='flex justify-center '/>  
         </div>
-        <div className="flex justify-start flex-col m-3 py-3">
+        <div className="flex flex-col m-3 py-3">
             <h1 className='text-3xl my-4 '>{title}</h1>
             <p className='text-gray max-w-xl my-1'>{description}</p>
         </div>
@@ -24,7 +24,7 @@ const Feature = () => {
     {
     features.map((feature,index) =>(
        <FeatureMap  key={feature.id} {...feature} index={index} 
-        className={` ${index === features.length - 1 ? "hidden" : "mr-2"}`}
+   //     className={` ${index === features.length - 1 ? "hidden" : "mr-2"}`}
        />      
     ))
     }
