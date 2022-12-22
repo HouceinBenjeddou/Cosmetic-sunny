@@ -18,7 +18,7 @@ const Hero = () => {
            <button className='rounded-3xl pl-20 bg-[#FCC7C3] '>Free delivery Worldwide</button>
            </span>
           </div>
-          <h1 className=" text-6xl px-4 bottom-16 relative max-w-[560px] m-3 ">Foundation Matte & poreless</h1>
+          <h1 className=" text-6xl font-medium px-4 bottom-16 relative max-w-[560px] m-3 ">Foundation Matte & poreless</h1>
           <p className='flex max-w-[23em] mx-2 py-1 text-gray pl-[21.5px] -top-6 relative'>Maybelline’s #1 foundation perfect for oily skin. No stickiness, no shine.</p>
           <span className='flex flex-1 flex-row justify-between mx-3 gap-6 items-center relative -left-[17px]'>
           <button className='flex cursor-pointer text-p_color relative left-3 px-4 m-3 '>Add to Cart</button>        

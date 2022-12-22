@@ -9,10 +9,12 @@ import logo from './logo.png'
 import mockup from './mockup.png'
 import price from './price.png'
 import line from './line.png'
+import circle from './circle.png'
 
 
 export {
     abstract,
+    circle,
     cta,
     delivery,
     gosprimer, 
