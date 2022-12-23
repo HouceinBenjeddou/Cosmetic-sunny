@@ -29,7 +29,7 @@ const HowToUse = () => {
           <p className='text-xl font-normal text-gray leading-8 my-2'>If you are looking for ways to warm up your pale skin, apply bronzer, and see the difference. Bronzer face seems the smart way to add glamour to your otherwise simplistic look.</p>
           <span className='flex flex-row justify-start items-center gap-6 text-primary my-2 py-2'>
             <a href="#" className='text-7xl'><AiOutlineLogout/></a>
-            <h3 className='text-[18px]'>Learn More</h3>
+            <h3 className='text-[18px] cursor-pointer'>Learn More</h3>
           </span>
         </div>
       </div>

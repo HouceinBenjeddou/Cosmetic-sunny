@@ -3,7 +3,7 @@ import { hdmicro, line, price, delivery } from '../assets'
 import {BiSkipNextCircle} from 'react-icons/bi'
 const Hero = () => {
   return (
-  <section id='home' className='container '>
+  <section id='' className='container '>
     <div className=' w-full py-1 flex justify-between items-center relative '>
       <div className="container flex justify-center max-w-lg">
          <img src={line} alt='line' className=' absolute left-0 right-[50%]'/>

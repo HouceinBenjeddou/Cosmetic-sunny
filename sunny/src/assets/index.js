@@ -10,16 +10,16 @@ import mockup from './mockup.png'
 import price from './price.png'
 import line from './line.png'
 import circle from './circle.png'
-import acenture from './sponsor/acenture'
-import deltoite from './sponsor/deltoite'
-import google from './sponsor/google'
-import ibm from './sponsor/ibm'
-import samsung from './sponsor/samsung'
+import accenture from './accenture.png'
+import deltoite from './deltoite.png'
+import google from './google.png'
+import ibm from './ibm.png'
+import samsung from './samsung.png'
 
 
 
 export {
-    acenture,
+    accenture,
     deltoite,
     google,
     ibm,
