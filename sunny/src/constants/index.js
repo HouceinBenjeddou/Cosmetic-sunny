@@ -1,5 +1,5 @@
 import {abstract, cta, delivery, gosprimer, hdmicro, howtouse, Image, logo, mockup, price, line, } from '../assets'
-import { accenture, deltoite, google, ibm, samsung } from '../assets'
+import { accenture, deltoite, google, ibm, samsung, person1, person2 } from '../assets'
 
 const navLinks = [
     {
@@ -66,7 +66,7 @@ const sponsors = [
 const testimonials = [
     {
         id: 1,
-        image:Image,
+        image:person1,
         header:"Quick and best results. You are the best!",
         story:"If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available.",
         author: "Dragos Gontariu",
@@ -74,7 +74,7 @@ const testimonials = [
     },
     {
         id: 2,
-        image:price,
+        image:person2,
         header:"Quick and best results. You are the best!",
         story:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quos tempora reprehenderit enim laudantium recusandae, sunt ipsam illo aliquid molestias eligendi maxime blanditiis fugit temporibus officiis dolorem in quidem quod.",
         author: "Houcein Benjeddou",
@@ -88,7 +88,9 @@ const testimonials = [
         author: "Houcein Ben Jeddou",
         position: "Mareting Manager",
     },
-]
+];
+
+
 
 export {
     navLinks,

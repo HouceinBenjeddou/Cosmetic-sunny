@@ -15,11 +15,15 @@ import deltoite from './deltoite.png'
 import google from './google.png'
 import ibm from './ibm.png'
 import samsung from './samsung.png'
+import person1 from './person1.jpg'
+import person2 from './person2.jpg'
 
 
 
 export {
     accenture,
+    person1,
+    person2,
     deltoite,
     google,
     ibm,

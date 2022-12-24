@@ -33,11 +33,11 @@ const Testimonials = () => {
   return (
     <section id='about'>
     <div className='flex justify-center items-center text-4xl mt-2 py-6 font-medium top-16 relative'>
-      <h1 className='my-3 py-4'>What Our Customers Says About Us</h1>
+      <h1 className='my-3 py-4'>What Our Customers Are Saying About Us</h1>
     </div>
     <div className='flex justify-center items-center container gap-20 py-8 relative top-9'>
       <div className="flex flex-row justify-center items-center">
-        <img src= {image} alt={author} className="ml-4 w-[380px]"/>
+        <img src= {image} alt={author} className="ml-4 w-[300px] h-[440px] border rounded-lg "/>
       </div>
       <div className="flex flex-col max-w-[550px] justify-center items-start">
       <h2 className='text-2xl font-normal my-2 self-center text-primary '>Customer Story</h2>
