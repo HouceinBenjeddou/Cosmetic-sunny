@@ -90,11 +90,43 @@ const testimonials = [
     },
 ];
 
-
+const Faq = [
+    {
+        id:1,
+        question: "How long until we deliver your product.?",
+        answer: "It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we MUST do before writing your first blog post.",
+    },
+    {
+        id:2,
+        question: "Do you offer money back guarentee?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum nostrum voluptates odio commodi similique sapiente, eum velit eos repudiandae hic consequuntur quae quo doloremque a laborum quidem.",
+    },
+    {
+        id:3,
+        question: "Is it medically tested?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsa ratione quidem. Officiis saepe doloribus ad vel pariatur, animi ipsa dolores aliquid est repudiandae deserunt. Vitae facilis tempore.",
+    },
+    {
+        id:4,
+        question: "How to get best results from this product?",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore officia, laborum hic consequatur voluptate facilis. Assumenda neque, a molestiae aliquam, illum quibusdam enim velit adipisci quisquam quam.",
+    },
+    {
+        id:5,
+        question: "Do you ship out of United States?",
+        answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus explicabo itaque blanditiis sit illo quia corporis reprehenderit in. Fugit excepturi nam in nihil inventore vel officiis aspernatur.",
+    },
+    {
+        id:6,
+        question: "Do you ship out of United States?",
+        answer: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus explicabo itaque blanditiis sit illo quia corporis reprehenderit in. Fugit excepturi nam in nihil inventore vel officiis aspernatur.",
+    },
+]
 
 export {
     navLinks,
     features,
     sponsors,
     testimonials,
+    Faq,
 };
