@@ -8,6 +8,7 @@ import Showcase from './Showcase'
 import Sponsors from './Sponsors'
 import Testimonials from './Testimonials'
 import Feature from './Feature'
+import Faqs from './Faqs'
 
 export {
     Navbar,
@@ -20,4 +21,5 @@ export {
     Showcase,
     Sponsors,
     Testimonials,
+    Faqs,
 }
