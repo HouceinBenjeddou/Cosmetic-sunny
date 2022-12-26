@@ -28,8 +28,10 @@ const [darkMode, setDarkMode] = useState(false)
           )
         })
       }
+      {/* 
+      
       </div>
-      {/* mobile */}
+      
       <div className="items-center flex">
         <span className='object-contain hidden max-sm:flex cursor-pointer text-3xl' onClick={() => setToggle(!toggle)}>
         {toggle ? <RiCloseLine/> : <RiMenu3Line/>}
@@ -56,8 +58,9 @@ const [darkMode, setDarkMode] = useState(false)
           )
         })
       }
+      */}
       </div>
-
+    
     <div className='flex justify-end items-center gap-5 text-xl'>
       <ul className='flex-1'>
         <a href="#"><AiOutlineSearch /></a>
