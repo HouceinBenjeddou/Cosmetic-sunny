@@ -10,7 +10,8 @@ module.exports = {
       p_color: '#ffffff',
       gray: '#707070',
       button_color: "#FFDAD7",
-    
+      cta: "#00566B",
+      links: "#222222",
     },
   },
   plugins: [],

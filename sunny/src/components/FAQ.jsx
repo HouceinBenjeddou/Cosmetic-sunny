@@ -8,7 +8,7 @@ const FAQ = () => {
       <div className="text-3xl flex justify-center items-end m-3 py-5">
         <h1>Frequently Ask Questions</h1>
       </div>
-      <div className="grid grid-cols-3 gap-3 text-start relative">
+      <div className="grid grid-cols-2 container mx-auto max-w-6xl gap-3 text-start">
       {
           Faq.map((question) => (
             <Faqs key={question.id} {...question}/>

@@ -9,6 +9,7 @@ import Sponsors from './Sponsors'
 import Testimonials from './Testimonials'
 import Feature from './Feature'
 import Faqs from './Faqs'
+import FooterMap from './FooterMap'
 
 export {
     Navbar,
@@ -22,4 +23,5 @@ export {
     Sponsors,
     Testimonials,
     Faqs,
+    FooterMap,
 }

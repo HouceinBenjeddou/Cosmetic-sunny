@@ -123,10 +123,91 @@ const Faq = [
     },
 ]
 
+const aboutFooter = [
+     {
+        id: 1,
+        title: "About",
+     },
+
+     {
+        id: 2,
+        links: "Home",
+     },
+
+     {
+        id: 3,
+        links: "Features",
+     },
+
+     {
+        id: 4,
+        links: "FAQs",
+     },
+
+     {
+        id: 5,
+        links: "Reviews",
+     },
+
+     {
+        id: 6,
+        links: "Stories",
+     },
+     
+];
+
+const privacyFooter = [
+        {
+            id: 1,
+            title: "Privacy",
+         },
+    
+         {
+            id: 2,
+            links: "Privacy",
+         },
+    
+         {
+            id: 3,
+            links: "Policy",
+         },
+    
+         {
+            id: 4,
+            links: "Payments",
+         },
+    
+         {
+            id: 5,
+            links: "Terms",
+         },
+
+]; 
+
+const contactFooter = [
+    {
+        id: 1,
+        title: "Contact Us",
+     },
+
+     {
+        id: 2,
+        links: "+01 234 567 8910 ",
+     },
+
+     {
+        id: 3,
+        links: "shakir260@gmail.com",
+     },
+];
+
 export {
     navLinks,
     features,
     sponsors,
     testimonials,
     Faq,
+    aboutFooter,
+    privacyFooter,
+    contactFooter,
 };
