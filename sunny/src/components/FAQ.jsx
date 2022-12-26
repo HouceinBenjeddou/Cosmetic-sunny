@@ -1,8 +1,10 @@
 import React from 'react'
 import {Faq} from '../constants'
+import { useState } from 'react'
 import Faqs from './Faqs'
 
 const FAQ = () => {
+
   return (
     <section id='FAQ' className='py-10 flex flex-col'>
       <div className="text-3xl flex justify-center items-end m-3 py-5">
@@ -11,7 +13,9 @@ const FAQ = () => {
       <div className="grid grid-cols-2 container mx-auto max-w-6xl gap-3 text-start">
       {
           Faq.map((question) => (
-            <Faqs key={question.id} {...question}/>
+            <Faqs key={question.id} {...question}
+             
+            />
           ))
         }
       </div>

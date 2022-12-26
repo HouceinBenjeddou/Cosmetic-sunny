@@ -4,7 +4,7 @@ import {AiOutlinePlus, AiOutlineMinus} from 'react-icons/ai'
 
 const Faqs = ({question,answer}) => {
 const [toggle, setToggle] = useState(false);
-
+const [active, setActive] = useState(false);
 return (
     <div className="shadow-xl flex flex-wrap p-1 m-2 gap-5">
      <div className="p-3 flex flex-col text-start items-start">       

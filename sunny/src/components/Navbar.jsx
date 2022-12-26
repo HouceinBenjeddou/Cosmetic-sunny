@@ -6,7 +6,7 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const Navbar = () => {
 const [toggle, setToggle] =  useState(false)
-
+const [darkMode, setDarkMode] = useState(false)
   return (    
     <div className='relative w-full flex py-6 px-6 mx-auto gap-48 items-center justify-center'>
       <div className="flex cursor-pointer">
