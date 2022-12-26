@@ -10,7 +10,7 @@
       <div className='flex flex-row justify-center items-center m-2 gap-20'>
       {
         sponsors.map((sponsor, index) => (
-          <div key={index.id}>
+          <div key={sponsor.id}>
            <img src={sponsor.image} index={index} className='flex justify-center'/>
           </div>
         ))
