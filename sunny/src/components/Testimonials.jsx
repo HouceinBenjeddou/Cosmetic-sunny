@@ -6,7 +6,7 @@ import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai'
 const Testimonials = () => {
   const [index, setIndex] = useState(0);
   const {image, header, story, author, position} = testimonials[index];
-
+  //
   const checkPerson = (number) => {
     if(number > testimonials.length - 1){
       return 0;
