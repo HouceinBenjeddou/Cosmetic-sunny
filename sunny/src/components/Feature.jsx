@@ -17,7 +17,6 @@ const FeatureMap = (({title, description, image})=>(
     </div>
 ))
 
-{/*to render*/}
 const Feature = () => {
   return (
     <div>
