@@ -1,6 +1,5 @@
 import React from 'react'
 import {Faq} from '../constants'
-import { useState } from 'react'
 import Faqs from './Faqs'
 
 const FAQ = () => {

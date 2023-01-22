@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState } from 'react'
 import {features} from '../constants'
 
 //const [readMore, setReadMore] = useState(false);
